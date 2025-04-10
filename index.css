@@ -1,0 +1,80 @@
+*{
+    font-family: "Inter";
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+form label{
+    font-size: 14px;
+}
+
+form input{
+    margin: 5px;
+    width: 380px;
+    height: 30px;
+    border-radius: 25px;
+    border: solid 1px black;
+    padding: 5px;
+    text-indent: 5px;
+}
+
+.buttonForm{
+    width: 400px;
+    margin: auto;
+    height: 40px;
+    border-radius: 25px;
+    border: solid 1px black;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.buttonForm:hover{
+    transform: scale(1.01);
+    color: white;
+}
+
+.green{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.red{
+    background-color: #f44336;
+    color: white;
+}
+
+table {
+    width: 1000px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 0 20px;
+}
+
+thead {
+    background-color: #2c3e50;
+    color: white;
+}
+
+th, td {
+    text-align: left;
+    padding: 1rem;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+tbody tr:hover {
+    background-color: #f0f8ff;
+}
